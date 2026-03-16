@@ -74,11 +74,9 @@ Then it prints the issue classification, suggested fix, trace path, and graph im
 }
 ```
 
-## 7. Demo
+## Demo
 
-This project includes a working example agent: `GitHubIssueInvestigator`.
-
-The agent analyzes a GitHub issue, classifies it, scans the repository, and proposes a potential fix.
+This repository demonstrates a Hive-style agent called `GitHubIssueInvestigator`.
 
 Running the demo:
 
@@ -86,9 +84,11 @@ Running the demo:
 python examples/run_issue_agent.py
 ```
 
-Artifacts generated:
+The agent generates:
 
-- `execution_trace.json` - runtime execution trace (`demo_artifacts/execution_trace.json`)
-- `github_issue_investigator_graph.png` - workflow graph visualization (`demo_artifacts/github_issue_investigator_graph.png`)
+- `execution_trace.json`
+- `github_issue_investigator_graph.png`
 
-A short demo video showing the full run is included in `/demo`.
+These artifacts represent runtime execution traces and workflow graph visualization.
+
+A demo video is available in the `/demo` folder.
