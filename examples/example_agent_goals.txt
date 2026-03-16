@@ -1,0 +1,1 @@
+Build a reliable Hive developer agent that can interpret goals, generate and validate a graph, simulate execution, detect runtime risks, and recommend optimizations with clear observability insights.

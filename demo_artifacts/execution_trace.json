@@ -1,0 +1,61 @@
+{
+  "execution_id": "dd5b5790-66b3-4097-951f-e3f26b06f1c7",
+  "timestamp": "2026-03-16T13:36:49.044899Z",
+  "total_execution_time": 2262,
+  "nodes": [
+    {
+      "node_id": "issue_input",
+      "node_type": "memory",
+      "status": "success",
+      "start_time": "2026-03-16T13:36:49.044823Z",
+      "end_time": "2026-03-16T13:36:49.145823Z",
+      "duration_ms": 101,
+      "attempts": 1
+    },
+    {
+      "node_id": "issue_understanding",
+      "node_type": "llm",
+      "status": "success",
+      "start_time": "2026-03-16T13:36:49.145823Z",
+      "end_time": "2026-03-16T13:36:49.676823Z",
+      "duration_ms": 531,
+      "attempts": 1
+    },
+    {
+      "node_id": "issue_classification",
+      "node_type": "decision",
+      "status": "success",
+      "start_time": "2026-03-16T13:36:49.676823Z",
+      "end_time": "2026-03-16T13:36:49.741823Z",
+      "duration_ms": 65,
+      "attempts": 1
+    },
+    {
+      "node_id": "repository_scan",
+      "node_type": "tool",
+      "status": "success",
+      "start_time": "2026-03-16T13:36:49.741823Z",
+      "end_time": "2026-03-16T13:36:50.207823Z",
+      "duration_ms": 466,
+      "attempts": 1
+    },
+    {
+      "node_id": "fix_suggestion",
+      "node_type": "llm",
+      "status": "success",
+      "start_time": "2026-03-16T13:36:50.207823Z",
+      "end_time": "2026-03-16T13:36:51.015823Z",
+      "duration_ms": 808,
+      "attempts": 1
+    },
+    {
+      "node_id": "result_aggregator",
+      "node_type": "aggregator",
+      "status": "success",
+      "start_time": "2026-03-16T13:36:51.015823Z",
+      "end_time": "2026-03-16T13:36:51.306823Z",
+      "duration_ms": 291,
+      "attempts": 2
+    }
+  ]
+}

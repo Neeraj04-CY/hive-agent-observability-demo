@@ -1,0 +1,7 @@
+openai
+langchain
+networkx
+graphviz
+python-dotenv
+rich
+matplotlib
